@@ -1,0 +1,22 @@
+[
+  {
+    "name": "facebook",
+    "href": "//www.facebook.com/littwin.mateusz",
+    "icon": "fa-facebook-official"
+  },
+  {
+    "name": "spotify",
+    "href": "//open.spotify.com/user/11125642203",
+    "icon": "fa-spotify"
+  },
+  {
+    "name": "instagram",
+    "href": "//www.instagram.com/mzastue/",
+    "icon": "fa-instagram"
+  },
+  {
+    "name": "linkedin",
+    "href": "//linkedin.com/in/mateusz-littwin-708154112/",
+    "icon": "fa-linkedin"
+  }
+]

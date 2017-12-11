@@ -1,10 +1,12 @@
 <template>
     <v-container>
+        <v-flex hidden-sm-and-down mt-5></v-flex>
         <v-layout
-            row
+            row wrap
             align-center
             card-container
             grey lighten-4
+            elevation-1
         >
             <v-flex
                 xs12 md6
@@ -33,7 +35,4 @@
 </script>
 
 <style lang="scss" scoped>
-    .card-container {
-        background-color: rgba(255, 255, 255, .9);
-    }
 </style>
