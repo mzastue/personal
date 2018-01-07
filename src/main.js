@@ -6,6 +6,7 @@ import router from './router';
 
 import './font-awesome/index';
 import './vuetify/index';
+import './particles/index';
 
 Vue.config.productionTip = false;
 

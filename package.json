@@ -20,7 +20,9 @@
     "style-loader": "^0.19.0",
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.1",
+    "textures": "^1.2.0",
     "vue": "^2.5.2",
+    "vue-particles": "^1.0.9",
     "vue-router": "^3.0.1",
     "vuetify": "^0.17.4"
   },
