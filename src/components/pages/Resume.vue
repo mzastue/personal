@@ -44,6 +44,9 @@
             </template>
           </box>
 
+          <box title="Skills">
+            <resume-skills :skills="skills" />
+          </box>
           <resume-footer />
         </v-flex>
       </v-layout>
@@ -57,6 +60,7 @@
   import Tags from './resume/Tags';
   import ResumeHeader from './resume/Header';
   import ResumeFooter from './resume/Footer';
+  import ResumeSkills from './resume/Skills';
 
   export default {
     name: 'PageResume',
@@ -67,6 +71,7 @@
       Tags,
       ResumeHeader,
       ResumeFooter,
+      ResumeSkills,
     },
 
     data() {
@@ -90,8 +95,26 @@
             place: 'GForces Web Management Polska',
             position: 'Web developer',
             date: '2015 - now',
-            description: 'Praca przy projekcie NetDirector Auto V10 – platforma na rynek samochodowy. Nabywanie doświadczenia w pracy zespołowej kierującej się metodologią SCRUM. Tworzenie oprogramowania opartego o framework Yii oraz JavaScript przy pomocy RequireJS. Tworzeniezautomatyzowanych testów korzystając z PHPSpec i Kahlan. Stworzeniewewnętrznego API dla testów BDD korzystając z Behat\'a. TestowanieJavaScript przy pomocy Jasmine. Wdrażanie VueJs.',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad fugiat minus necessitatibus odio porro veniam.',
             technologies: ['VueJS', 'PHP', 'Javascript', 'SCRUM', 'TDD & BDD', 'RequireJs', 'Behat'],
+          },
+        ],
+        skills: [
+          {
+            group: 'PHP',
+            tags: ['Yii Framework', 'PHPSpec', 'Behat', 'Kahlan', 'Laravel'],
+          },
+          {
+            group: 'Javascript',
+            tags: ['VueJs', 'RequireJS', 'Jasmine', 'Webpack', 'Gulp', 'EcmaScript6'],
+          },
+          {
+            group: 'HTML & CSS',
+            tags: ['Bootstrap', 'Sass', 'Material design', 'HTML5'],
+          },
+          {
+            group: 'Others',
+            tags: ['Object Oriented Programming', 'MySQL', 'Testing - BDD & TDD', 'JIRA', 'UI/UX', 'Design', 'Clean code'],
           },
         ],
       };

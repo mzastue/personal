@@ -7,7 +7,7 @@ export default [
     component: IndexPage,
   },
   {
-    path: '/resume',
+    path: '/about',
     component: ResumePage,
   },
 ];
